@@ -1,0 +1,51 @@
+feed  
+{
+		
+              font-size:80%; 
+              margin:0.5em;
+               margin-right:50px;		
+               margin-left:220px;				   
+              font-family: Verdana; 
+              display:block; 
+              } 
+geeks_section { 
+              display:block;  
+              border: 1px solid silver; 
+              margin:0.5em;  
+              padding:5em;  
+              background-color:whitesmoke; 
+              } 
+title { 
+      display:block; 
+      font-weight:bolder; 
+      text-align:center; 
+      font-size:30px; 
+      background-color: green; 
+      color: white; 
+  
+      } 
+name, topic1, topic2, topic3, topic4 { 
+                                 display:block; 
+                                 text-align:Left; 
+								 font-size:20px;
+                                 } 
+name { 
+     color:green;  
+     text-decoration: underline  ; 
+     font-weight:bolder; 
+     font-size:30px; 
+     } 
+topic1 { 
+       color:green
+       } 
+topic2 { 
+       font-size:20px;
+       color:brown 
+       } 
+topic3 { 
+       
+       color:blue
+       } 
+topic4 {  
+       color:orange 
+       } 

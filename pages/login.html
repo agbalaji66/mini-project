@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Login Form</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="../css/styles.css"/>
+<!-- Include JS File Here -->
+<!--<script src="../js/login.js"></script>-->
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Login Form</h2>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<div data-validate = "Username should not be blank">
+<input type="text" name="uname" id="uname" required/>
+</div>
+<label>Password :</label>
+<input type="password" name="pass" id="pass"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+<!--<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>-->
+</div>
+</div>
+</body>
+</html>
+<?php
+// Start the session
+session_start();
+?>
+<?php
+$db=mysqli_connect("localhost","root","","foodmanagement");
+
+if(isset($_POST['submit']))
+{
+  $name=$_POST['uname'];
+  $pass=$_POST['pass'];
+
+    $_SESSION["name"]=$name;
+
+
+    $query="SELECT *  FROM `login` WHERE uname = '$name' and pass='$pass'";
+  $re=mysqli_query($db,$query);
+
+while($row=mysqli_fetch_array($re))
+{
+  
+$subject=$row['pass'];
+if($subject==$pass)
+header("location: dashboard.html");
+
+}
+{
+   echo '<script language="javascript">';
+echo 'alert("invalid username or password")';
+
+
+echo '</script>';
+header('Refresh: 0; url=login.php');
+}
+}
+
+?>

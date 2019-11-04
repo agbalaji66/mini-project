@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="Feed.css"?> 
+<feed> 
+    <title>Welcome to Todays Feed's</title> 
+    <geeks_section> 
+        <name>Needy_1</name> 
+        <topic1>CONTACT NO = 1234567890</topic1> 
+        <topic2>ADDRESS = XYZZZZXZ</topic2> 
+        <topic3>REQUIREMENTS = 50+</topic3> 
+        <topic4>TIME = LUNCH </topic4> 
+    </geeks_section> 
+	<geeks_section> 
+        <name>Provider</name> 
+        <topic1>CONTACT NO = 7531598520</topic1> 
+        <topic2>ADDRESS = zxvcmkjhggdsfg</topic2> 
+        <topic3>Food Remaining = 25</topic3> 
+        <topic4>TIME = Dinner </topic4>  
+    </geeks_section> 
+    <geeks_section> 
+        <name>Needy_2</name> 
+        <topic1>CONTACT NO = 0123456789</topic1> 
+        <topic2>ADDRESS = ABCEDRFS</topic2> 
+        <topic3>REQUIREMENTS = 20</topic3> 
+        <topic4>TIME = Dinner </topic4> 
+    </geeks_section> 
+    <geeks_section> 
+        <name>Needy_3</name> 
+        <topic1>CONTACT NO = 2587419630</topic1> 
+        <topic2>ADDRESS = POQWERTY</topic2> 
+        <topic3>REQUIREMENTS = 15</topic3> 
+        <topic4>TIME = Break Fast </topic4> 
+    </geeks_section>
+<geeks_section> 
+        <name>Provider</name> 
+        <topic1>CONTACT NO = 1456515165</topic1> 
+        <topic2>ADDRESS = zxvcmkjhggdsfg</topic2> 
+        <topic3>Food Remaining = 10</topic3> 
+        <topic4>TIME = Break Fast </topic4>  
+    </geeks_section> 	
+    <geeks_section> 
+        <name>Needy_4</name> 
+        <topic1>CONTACT NO = 4567891230</topic1> 
+        <topic2>ADDRESS = lkjhgfddsa</topic2> 
+        <topic3>REQUIREMENTS = 150</topic3> 
+        <topic4>TIME = Lunch </topic4> 
+    </geeks_section> 
+    <geeks_section> 
+        <name>Needy_5</name> 
+        <topic1>CONTACT NO = 7531598520</topic1> 
+        <topic2>ADDRESS = zxvcmkjhggdsfg</topic2> 
+        <topic3>REQUIREMENTS = 60</topic3> 
+        <topic4>TIME = Dinner </topic4> 
+    </geeks_section>
+<geeks_section> 
+        <name>Needy_6</name> 
+        <topic1>CONTACT NO = 7531598520</topic1> 
+        <topic2>ADDRESS = zxvcmkjhggdsfg</topic2> 
+        <topic3>REQUIREMENTS = 32</topic3> 
+        <topic4>TIME = Lunch </topic4> 
+    </geeks_section>
+<geeks_section> 
+        <name>Provider</name> 
+        <topic1>CONTACT NO = 7531598520</topic1> 
+        <topic2>ADDRESS = zxvcmkjhggdsfg</topic2> 
+        <topic3>Food Remaining = 80</topic3> 
+        <topic4>TIME = Lunch </topic4> 
+    </geeks_section>		
+</feed> 
